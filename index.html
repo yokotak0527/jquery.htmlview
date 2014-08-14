@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="ja-JP">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.htmlview</title>
+</head>
+<body>
+
+
+<pre><code>
+	<div id='test' class='hoge'>
+		<h1>見出し</h1>
+		<p>
+			文章文章文章文章文章文章文章文章文章<br>
+			文章文章文章文章文章文章文章文章文章
+		</p>
+		<ul>
+			<li>リスト１</li>
+			<li>リスト２</li>
+			<li>リスト３</li>
+		</ul>
+	</div>
+</code></pre>
+
+<script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="build/jquery.htmlview.js"></script>
+<script>
+	$('code').htmlview();
+</script>
+</body>
+</html>
