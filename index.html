@@ -9,9 +9,9 @@
 
 <pre><code>
 	<div id='test' class='hoge'>
-		<h1>見出し</h1>
-		<p>
-			文章文章文章文章文章文章文章文章文章<br>
+		<h1>見出し</h1>     
+		<p><?php echo 'hoge'; ?>
+			文章文章文章文章文章文章文章文章文章<br>　　　　
 			文章文章文章文章文章文章文章文章文章
 		</p>
 		<ul>
@@ -20,12 +20,14 @@
 			<li>リスト３</li>
 		</ul>
 	</div>
+
+
 </code></pre>
 
 <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
 <script src="build/jquery.htmlview.js"></script>
 <script>
-	$('code').htmlview();
+	$('code').htmlview().css('background','#AAA');
 </script>
 </body>
 </html>
